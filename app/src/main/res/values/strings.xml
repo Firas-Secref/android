@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">VisiteTechnique</string>
+    <string-array name="choises">
+        <item>Type d immatriculation</item>
+        <item>Série Normale (TU) تونس</item>
+        <item>Régime Suspensif (RS) ن ت</item>
+        <item>Moto (MOTO) د ن</item>
+        <item>Tracteur (TRAC) ج ف</item>
+        <item>Personnel Administratif et Technique (PAT) م إ ف</item>
+        <item>Chef de Mission Diplomatique (CMD) ر ب د</item>
+        <item>Corps Diplomatique (CD) س د</item>
+        <item>Mission Diplomatique (MD) ب د</item>
+        <item>Mission Consulaire (MC) ث ق</item>
+        <item>Corps Consulaire (CC) س ق</item>
+        <item>Remorque (REM) ع م</item>
+        <item>Appareil Agicol (AA) أ ف</item>
+        <item>Engin Special (ES) م خ </item>
+        <item>Propriété de l Etat (PE)</item>
+        <item>Immatriculation Tomporaire (IT) ت م</item>
+    </string-array>
+
+    <string-array name="gouvernorats">
+        <item>Centres</item>
+        <item>Ariana</item>
+        <item>Béja</item>
+        <item>Ben Arous</item>
+        <item>Bizerte</item>
+        <item>Gabès</item>
+        <item>Gafsa</item>
+        <item>Jandouba</item>
+        <item>Kairouane</item>
+        <item>Kasserine</item>
+        <item>Kébili</item>
+        <item>Le Kef</item>
+        <item>Mahdia</item>
+        <item>La Mannouba</item>
+        <item>Médenine</item>
+        <item>Monastir</item>
+        <item>NAbeul</item>
+        <item>Sfax</item>
+        <item>Sidi Bouzid</item>
+        <item>Siliana</item>
+        <item>Sousse</item>
+        <item>Tataouine</item>
+        <item>Tozeur</item>
+        <item>Tunis</item>
+        <item>Zaghouane</item>
+
+
+    </string-array>
+
+    <string-array name="heures">
+        <item>08:10:00</item>
+        <item>08:25:00</item>
+        <item>08:40:00</item>
+        <item>08:55:00</item>
+        <item>09:10:00</item>
+        <item>09:25:00</item>
+        <item>09:40:00</item>
+        <item>09:55:00</item>
+        <item>10:10:00</item>
+        <item>10:25:00</item>
+        <item>10:40:00</item>
+        <item>10:55:00</item>
+        <item>11:10:00</item>
+        <item>11:25:00</item>
+        <item>11:40:00</item>
+        <item>11:55:00</item>
+        <item>12:10:00</item>
+        <item>12:25:00</item>
+        <item>12:40:00</item>
+    </string-array>
+</resources>

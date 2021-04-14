@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="12px"
+    tools:context=".ThirdActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="162dp"
+                app:srcCompat="@drawable/att3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="20px">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Conditions Génerales"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="الشروط العامة"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="30px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23px"
+                android:layout_marginBottom="20px"
+                android:text="               .الرجاء الإطّلاع بكلّ دقّة على الشروط العامة لاستخدام خدمة الحجز والدفع عبر الإنترنت وتأكيد قبول هذه الشروط بالضغط على أيقونة أوافق على الشروط العامة  "
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tout Client doit lire attentivement les Conditions générales d'utilisation du service de réservation et de paiement en ligne, ensuite il est invité à confirmer son acceptation en cliquant sur l’icône J'accepte les conditions générales."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:scrollbars="vertical"
+                        android:id="@+id/conditions"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:padding="30px"
+                        android:text="Conditions générales d’utilisation du service de réservation et de paiement en ligne offert par l’ L’Agence Technique des Transports Terrestres . Préambule L’Agence Technique des Transports Terrestres (ci-après dénommée « ATTT ») met à la disposition de sa clientèle un espace de réservation et de paiement en ligne (ci-après dénommé « le Service ») accessible à l’adresse suivante : www.attt.com.tn (ci-après dénommé « le Site »). Cet espace permet à toute personne physique ou morale (ci-après dénommée « le Client ») de réserver en ligne une prestation de visite technique ou de revisite auprès d’un centre de contrôle technique relevant de l’ATTT (ci-après dénommé « le Centre ») et de régler directement en ligne la dite prestation. Le service consiste en la mise à disposition en ligne, par l’intermédiaire d’une gestion de planning centralisée via le site internet, d’un service de réservation de rendez-vous (RDV) de visite technique dans un Centre déterminé et de paiement en ligne de prestation de visite technique, dans l’hypothèse où le Centre concerné propose ses services en ligne à la date de réservation. Chaque Centre définit ses dates et ses horaires d’ouverture, son planning et les types de véhicules ouverts à la réservation (voiture particulière, véhicule utilitaire, camions …) et reste libre de les modifier à tout moment selon ses disponibilités. 1 - ACCEPTATION DES CONDITIONS GENERALES Seuls les Clients ayant accepté les termes des conditions générales sont autorisés à accéder au Service. L’ATTT étant susceptible de modifier à tout moment les conditions générales et ce sans informer en préalablement le Client, celui-ci doit systématiquement se référer aux dernières conditions générales en vigueur figurant sur le Site avant de réserver un contrôle technique et de payer en ligne. En cochant la case : « Je reconnais avoir pris connaissance des Conditions Générales d’utilisation du service de réservation en ligne et de paiement en ligne, et je les accepte intégralement », le Client confirme avoir lu et approuvé la version des conditions générales en vigueur et exprime de façon irrévocable et définitive leur acceptation dans leur intégralité. 2 - OBJET DES CONDITIONS GENERALES Les conditions générales ont pour objet de définir les obligations respectives du Client et de l’ATTT et régissent les relations entre le Client et l’ATTT uniquement concernant les prestations de réservation et de paiement en ligne. 2 3 - CONDITIONS D’INSCRIPTION L’inscription au Service proposé par l’ATTT s’effectue en ligne sur le Site par le Client La souscription au Service est réputée effective à l’affichage de confirmation du RDV une fois les différentes étapes d’inscription achevées. Le Client s’engage à : -Indiquer avec exactitude les données demandées. -Ne pas échanger ou mettre à la disposition d’un tiers, à titre gratuit ou onéreux, le RDV de contrôle technique réservé sur le Site, celui-ci étant personnel au Client et spécifique à son véhicule. Le Client est seul responsable de l’exactitude et de la conformité des informations communiquées à l’ATTT et nécessaires à l’exécution de la prestation. L’ATTT ne saurait être responsable de la non exécution des prestations prévues aux présentes conditions générales en cas de fourniture d’informations erronées par le Client. 4 - PROCEDURE DE PRISE DE RDV ET PAIEMENT EN LIGNE La procédure de prise de RDV en ligne et du paiement en ligne s’effectue selon les étapes suivantes et après validation obligatoire de l’acceptation des termes des conditions générales par le client. Le Client se connecte sur le site www.attt.com.tn . Après avoir cliqué sur « prendre RDV », une fenêtre s’ouvre. Trois étapes sont alors nécessaires au Client avant qu’il valide sa réservation et son paiement en ligne. ETAPE 1 : Le Client est d’abord invité à renseigner de manière obligatoire le type de série d’immatriculation du véhicule concerné ainsi que son numéro d’immatriculation. A chaque fois que les champs obligatoires sont renseignés, le bouton « étape suivante » s’active. ETAPE 2 : Le client doit choisir un centre parmi les centres possédant un agenda en ligne ainsi que la date de la visite technique. ETAPE 3 : Le client doit choisir l'horaire de son RDV selon les disponibilités du centre choisi et dans la date choisie. Un affichage du récapitulatif de son RDV permet au client de vérifier les données renseignées et le montant global à payer. Le Client est automatiquement redirigé vers la plateforme de paiement électronique sécurisée de la Société Monétique Tunisie SMT pour y effectuer le règlement de la prestation. ETAPE 4 : Pour le paiement en ligne, le Client est redirigé vers le module de paiement de la plateforme sécurisée (https) mis en place par la SMT Le paiement en ligne par carte est le seul mode de paiement autorisé. 3 Le module de paiement en ligne de la SMT sert d’interface pour acheminer les flux de paiement du client de façon sécurisée (https avec cryptage par clé de scellement) vers la banque. En cas d’échec du procédé de paiement, le Client est immédiatement informé sur le site du refus. Après avoir payé en ligne, le Client reçoit une confirmation de paiement avec un numéro de transaction. Le paiement en ligne va clôturer la réservation. Le RDV est ainsi réservé à la fin de l’étape 4 et un message de confirmation du rendez-vous s'affiche sur l’écran. Aucun délai de rétractation n’est applicable au contrat de réservation après paiement. Le Client a l’obligation de respecter l’horaire du RDV. Le Client a la possibilité de rééditer le récapitulatif et les conditions générales. Il est expressément informé que les dites conditions générales peuvent être modifiées à tout moment, la version applicable étant la version en vigueur sur le Site à la date de prise de rendez vous. 5 - GARANTIE ET SERVICE APRES VENTE En cas de difficulté dans l’exécution du service de réservation et de paiement en ligne, le Client peut immédiatement contacter l’ATTT par écrit à l’adresse suivante : Av . du Japon, Impasse I, n°6 Montplaisir 1073 Tunis, sur le Numéro Vert : 80 100 307 ou à l'adresse mail: infoattt@email.ati.tn. Les services concernés de l’ATTT traiteront sa demande avec la plus grande attention. Par ailleurs, il est rappelé que le Centre exécute la prestation, dans le respect de la règlementation et des procédures qualité définies par l’ATTT. 6 - RESPONSABILITE Le service de réservation se limite à une prestation de réservation d’une visite technique pour le véhicule au nom et pour le compte du Client auprès du Centre concerné et, à l’encaissement des droits de ladite prestation au nom de l’ATTT et pour son compte. Dès lors, les présentes conditions générales régissent exclusivement la mise à disposition d’un service de réservation en ligne permettant à toute personne physique ou morale de prendre un rendez-vous auprès d’un Centre et le règlement en ligne des prestations de visite technique réservées par l’intermédiaire du Site. Les présentes conditions générales ne concernent en aucune manière l’exécution de prestation de visite technique par le Centre à l’issue de l’utilisation du Service. De plus, chaque Centre administre ses propres prestations et les options de réservation en ligne. En outre, l’ATTT se réserve le droit, à tout moment, de modifier, suspendre ou interrompre temporairement tout ou partie du service et prendra les mesures nécessaires pour en informer le client. 4 La responsabilité de l’ATTT ne pourra pas être recherchée si l’utilisation du service est retardée par un cas de force majeure, une cause extérieure ou tout événement indépendant de sa volonté. 7 - DROITS / MODALITES DE PAIEMENT Les prestations fournies par les Centres sont soumis aux droits de la prestation relative à la visite technique en vigueur lors de l’acceptation de la réservation et au droit additionnel au titre du service de réservation mentionné sur le Site. Les droits à payer s’entend payable au comptant, net et sans escompte, sans frais. Le paiement devra intervenir en ligne par voie de paiement sécurisé par carte bancaire, sans frais supplémentaires. Tout retard, suspension ou annulation du fait notamment de défaillances techniques inhérentes au fonctionnement du réseau Internet, extérieures à l’ATTT et indépendantes de sa volonté, ne peut ouvrir droit à une indemnisation sous quelque forme que ce soit du Client. 8 - DROIT DE RETRACTATION Il est rappelé expressément qu’il n’y a aucun délai de rétractation concernant la prestation de réservation. En cas de non présentation du véhicule à la visite technique à la date et l’heure réservées, le client peut se rendre à l'un des centres de visite technique de son choix dans un délai de deux jours ouvrables à partir de la date du RDV et la prestation est alors exécutée sans un nouveau paiement .Dépassé ce délai, le client est appelé à payer uniquement les droits de revisite. Le droit additionnel au titre du service de réservation mentionné sur le Site n'est valable que pour une seule réservation et le client ne pourra en aucun cas demander son remboursement." />
+                </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25px"
+                android:layout_marginBottom="25px"
+                android:onClick="onCheckboxClicked"
+                android:text="J'accepte les conditions générales / أوافق على الشروط العامة" />
+
+
+            <Button
+                android:id="@+id/btn2Next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:onClick="onClick"
+                android:text="Suivant" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
